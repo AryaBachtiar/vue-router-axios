@@ -2,6 +2,7 @@
 
   <div class="header">
     <h1>Pesawat</h1>
+    <h1>project</h1>
     <form @submit.prevent="add">
         <input type="hidden" v-model="form.id " required>
         <label for="">Nama Pesawat</label><br>
